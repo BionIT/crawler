@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>What do you want to search?</h1>
+<form id="create_item_form">
+    {% csrf_token %}
+    <p> welcome, {{ user.username }}</p>
+    {{ form }}
+    <input type="submit" value="submit"/>
+</form>
+<p id="message"></p>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type='text/javascript'>
+    $('#create_item_form').on('submit', function(e) {
+            e.preventDefault();
+            console.log("here>");
+            $.ajax({
+                type: 'POST',
+                url: '/spider/api/v1/items/',
+                data: $(this).serialize(),
+                statusCode: {
+                    401: function () {
+                        window.location.href = "/accounts/login";
+                    },
+                    200: function() {
+                        document.getElementById('source').value = '';
+                        $('#message').text("successfully submitted");
+                    }
+                }
+        })})
+</script>
+
+</body>
+</html>
