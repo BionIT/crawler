@@ -15,7 +15,6 @@ run scrapy crawl webcrawler would trigger scrapy spider to crawl pages stored in
 product(lego set) name and price are acquired through crawling and xpath parsing, and they are saved to sqlite in the pipeline. If price is reduced comparing to saved price, then an email would be sent 
 
 TODO:
-- add registration
 - add styling
 - integrate with React 
 - more features
