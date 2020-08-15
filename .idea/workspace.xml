@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1931dd19-a074-4771-8bb7-880fe273ba26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spider/templates/registration/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spider/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../qlq365/qlq" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -96,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595024782619</updated>
       <workItem from="1595024783834" duration="2861000" />
-      <workItem from="1595912697440" duration="1972000" />
+      <workItem from="1595912697440" duration="4397000" />
     </task>
     <servers />
   </component>
@@ -115,9 +111,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="819" y="324" width="424" height="484" key="FileChooserDialogImpl" timestamp="1595024837228">
+    <state x="819" y="324" width="424" height="484" key="FileChooserDialogImpl" timestamp="1595995554567">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="819" y="324" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1595024837228" />
+    <state x="819" y="324" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1595995554567" />
   </component>
 </project>
